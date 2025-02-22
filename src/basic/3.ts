@@ -1,12 +1,12 @@
-let unionType: string | number
-unionType = "Tom"
-unionType = 10
+// Union Type
+let input: string | number
+input = "Tom"
+input = 10
 
-console.log(unionType)
+console.log(input)
 
-// Literal type
+// Literal Type
 type Status = "enable" | "disable"
 let value: Status = "enable"
-value = "disable"
 
 console.log(value)

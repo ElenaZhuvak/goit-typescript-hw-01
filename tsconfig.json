@@ -6,6 +6,9 @@
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "noEmitOnError": false,
+    "noEmit": true,
+
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -13,7 +16,6 @@
     "isolatedModules": true,
     "moduleDetection": "force",
     "resolveJsonModule": true,
-    "noEmit": true,
 
     /* Advanced Options */
     "outDir": "./dist",
@@ -26,5 +28,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src"]
+  "include": ["src", "src/basic"]
 }
