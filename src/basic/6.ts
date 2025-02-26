@@ -17,11 +17,11 @@ const mango: User = {
     country: 'USA',
   },
 };
-console.log(JSON.stringify(mango))
+// console.log(JSON.stringify(mango))
 
 const poly: User = {
   name: 'Mango',
   age: 30,
   email: 'john@example.com',
 };
-console.log(poly)
+// console.log(poly)

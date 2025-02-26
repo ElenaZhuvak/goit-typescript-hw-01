@@ -6,7 +6,9 @@ import "../src/basic/4"
 import "../src/basic/5"
 import "../src/basic/6"
 import "../src/basic/7"
-
-
-
-
+import "../src/generics/1.ts"
+import "../src/generics/2.ts"
+import "../src/generics/3.ts"
+import "../src/generics/4.ts"
+import "../src/generics/5.ts"
+import "../src/generics/6.ts"
