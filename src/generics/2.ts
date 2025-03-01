@@ -5,7 +5,7 @@ interface AllType {
   weight: number;
 };
 
-function compare(top: AllType, bottom: AllType): Pick<AllType, 'name' | 'color' | 'position'| 'weight'> {
+function compare<T extends Pick<AllType, "name" | "color">, U extends Pick<AllType, "position" | "weight">>(top: T, bottom: U): AllType {
   return {
     name: top.name,
     color: top.color,
